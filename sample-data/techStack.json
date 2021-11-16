@@ -1,0 +1,22 @@
+{
+    "tech1" : {
+        "id" : "t1",
+        "name" : "tech1",
+        "img" : ".jpeg"
+    },
+    "tech2" : {
+        "id" : "t2",
+        "name" : "tech2",
+        "img" : ".jpeg"
+    },
+    "tech3" : {
+        "id" : "t3",
+        "name" : "tech3",
+        "img" : ".jpeg"
+    },
+    "tech4" : {
+        "id" : "t4",
+        "name" : "tech4",
+        "img" : ".jpeg"
+    }
+}
