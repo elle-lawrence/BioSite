@@ -1,30 +1,42 @@
 {
     "project1" : {
-        "id" : "1",
+        "firebaseKey" : "1",
         "name" : "project1",
+        "description" : "this is a description of this project",
         "deployedUrl" : ".com",
-        "gitURL" : "git.com",
+        "gitUrl" : "git.com",
         "proImage" : ".jpeg"
     },
     "project2" : {
-        "id" : "2",
+        "firebaseKey" : "2",
         "name" : "project2",
+        "description" : "this is a description of this project",
         "deployedUrl" : ".com",
-        "gitURL" : "git.com",
+        "gitUrl" : "git.com",
         "proImage" : ".jpeg"
     },
     "project3" : {
-        "id" : "3",
+        "firebaseKey" : "3",
         "name" : "project3",
+        "description" : "this is a description of this project",
         "deployedUrl" : ".com",
-        "gitURL" : "git.com",
+        "gitUrl" : "git.com",
         "proImage" : ".jpeg"
     },
     "project4" : {
-        "id" : "4",
+        "firebaseKey" : "4",
         "name" : "project4",
+        "description" : "this is a description of this project",
         "deployedUrl" : ".com",
-        "gitURL" : "git.com",
+        "gitUrl" : "git.com",
+        "proImage" : ".jpeg"
+    },
+    "project5" : {
+        "firebaseKey" : "5",
+        "name" : "project5",
+        "description" : "this is a description of this project",
+        "deployedUrl" : ".com",
+        "gitUrl" : "git.com",
         "proImage" : ".jpeg"
     }
 }

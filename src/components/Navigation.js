@@ -10,7 +10,8 @@ const NavBar = styled.div`
   align-items: left;
   background-color: 
   backdrop-filter: blur(5px);
-\
+  width: 40vw;
+
 
   .linkStyling {
     color: #444430;
