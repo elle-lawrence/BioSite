@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import getAllProjects from '../api/data/projectData';
+import { getAllProjects } from '../api/data/projectData';
 import ProjectCard from '../components/ProjectCard';
 
 const CardContainer = styled.div`
@@ -16,7 +16,13 @@ export default function Projects() {
   const [projects, setAllProjects] = useState([]);
 
   useEffect(() => {
-    getAllProjects().then(setAllProjects);
+    let isMounted = true;
+    getAllProjects().then((projectsArray) => {
+      if (isMounted) setAllProjects(projectsArray);
+    });
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
   return (
@@ -25,6 +31,7 @@ export default function Projects() {
         <ProjectCard
           key={project.firebaseKey}
           project={project}
+          setAllProjects={setAllProjects}
         >
           project.name
         </ProjectCard>

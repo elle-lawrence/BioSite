@@ -1,0 +1,11 @@
+{
+    "personal1" : {
+        "firebaseKey" : "e1",
+        "name" : "Elle Lawrence",
+        "shortDescription" : "this is a brief description of me",
+        "longDescription" : "this is a longer description of me",
+        "homeImage" : ".jpeg",
+        "aboutMeImage" : ".jpeg",
+        "git" : "gitUrl.com"
+    }
+}

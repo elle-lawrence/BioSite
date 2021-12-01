@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 import image from '../assets/images/headShot.jpg';
 
 const IntroContainer = styled.div`
@@ -24,16 +25,28 @@ const IntroContainer = styled.div`
   }
 `;
 
-export default function Intro() {
+export default function Intro({ shortIntro }) {
   return (
     <IntroContainer>
       <div className="imgDiv">
         <img src={image} className="img-fluid" alt="Elle Home profile pic" />
       </div>
       <div className="textDiv">
-        <h2>ELLE LAWRENCE</h2>
-        <p>heres some info about elle. click to find out more.</p>
+        <h2>{shortIntro.name}</h2>
+        <p>{shortIntro.shortDescription}</p>
       </div>
     </IntroContainer>
   );
 }
+
+Intro.propTypes = {
+  shortIntro: PropTypes.shape({
+    firebaseKey: PropTypes.string,
+    name: PropTypes.string,
+    shortDescription: PropTypes.string,
+    longDescription: PropTypes.string,
+    homeImage: PropTypes.string,
+    aboutMeImage: PropTypes.string,
+    git: PropTypes.string,
+  }).isRequired,
+};

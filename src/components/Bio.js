@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
+import image from '../assets/images/elleinbrooklynhome.jpeg';
 
 const BioContainer = styled.div`
   display: flex;
@@ -14,14 +16,14 @@ const BioContainer = styled.div`
   backdrop-filter: blur(5px);
 `;
 
-export default function Bio() {
+export default function Bio({ longIntro }) {
   return (
     <>
       <BioContainer>
         <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src="..." className="d-block w-100" alt="..." />
+              <img src={image} className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
               <img src="..." className="d-block w-100" alt="..." />
@@ -33,9 +35,21 @@ export default function Bio() {
         </div>
         <h4>ELLE LAWRENCE</h4>
         <p>
-          Bio info goes here. blah blah blah
+          {longIntro.longDescription}
         </p>
       </BioContainer>
     </>
   );
 }
+
+Bio.propTypes = {
+  longIntro: PropTypes.shape({
+    firebaseKey: PropTypes.string,
+    name: PropTypes.string,
+    shortDescription: PropTypes.string,
+    longDescription: PropTypes.string,
+    homeImage: PropTypes.string,
+    aboutMeImage: PropTypes.string,
+    git: PropTypes.string,
+  }).isRequired,
+};
