@@ -36,4 +36,4 @@ EditProject.propTypes = {
   }),
 }.isRequired;
 
-EditProject.defaultProps = { stuffObj: {} };
+EditProject.defaultProps = { projectObj: {} };

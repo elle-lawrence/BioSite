@@ -1,42 +1,35 @@
 {
-    "project1" : {
-        "firebaseKey" : "1",
-        "name" : "project1",
-        "description" : "this is a description of this project",
-        "deployedUrl" : ".com",
-        "gitUrl" : "git.com",
-        "proImage" : ".jpeg"
+    "-MpnYq6kpK5uurCvpwYA": {
+      "deployedUrl": "https://hot-sauce-hotties-roster.netlify.app/",
+      "description": "This REACT app allows the user to mange their team roster. Add new players, edit and delete them.",
+      "firebaseKey": "-MpnYq6kpK5uurCvpwYA",
+      "gitUrl": "https://github.com/elle-lawrence/team-roster",
+      "name": "Team Rosters",
+      "proImage": "https://i.pinimg.com/originals/96/40/6d/96406d315b05e7a55c6911bc4353cf66.jpg"
     },
-    "project2" : {
-        "firebaseKey" : "2",
-        "name" : "project2",
-        "description" : "this is a description of this project",
-        "deployedUrl" : ".com",
-        "gitUrl" : "git.com",
-        "proImage" : ".jpeg"
+    "-Mpn_LdqkkssiB2Tl8jG": {
+      "deployedUrl": "https://notdeplyed.com",
+      "description": "React app to-do list",
+      "firebaseKey": "-Mpn_LdqkkssiB2Tl8jG",
+      "gitUrl": "https://github.com/elle-lawrence/YOU-DO",
+      "name": "YOU-DO to-do",
+      "proImage": "https://static.vecteezy.com/system/resources/previews/002/722/463/original/check-list-sign-flat-icon-illustration-free-vector.jpg"
     },
-    "project3" : {
-        "firebaseKey" : "3",
-        "name" : "project3",
-        "description" : "this is a description of this project",
-        "deployedUrl" : ".com",
-        "gitUrl" : "git.com",
-        "proImage" : ".jpeg"
+    "-MpnbKjHuY2eN0XNW2qp": {
+      "deployedUrl": "https://stuff-hoarder.netlify.app/",
+      "description": "REACT Bookmark React App- ",
+      "firebaseKey": "-MpnbKjHuY2eN0XNW2qp",
+      "gitUrl": "https://github.com/nss-evening-cohort-16/react-horder-react-repurposers",
+      "name": "Stuff Hoaders",
+      "proImage": "https://freeiconshop.com/wp-content/uploads/edd/bookmark-alt-flat.png"
     },
-    "project4" : {
-        "firebaseKey" : "4",
-        "name" : "project4",
-        "description" : "this is a description of this project",
-        "deployedUrl" : ".com",
-        "gitUrl" : "git.com",
-        "proImage" : ".jpeg"
-    },
-    "project5" : {
-        "firebaseKey" : "5",
-        "name" : "project5",
-        "description" : "this is a description of this project",
-        "deployedUrl" : ".com",
-        "gitUrl" : "git.com",
-        "proImage" : ".jpeg"
+    "-Mpnc_FL_ljb6sW_o4AX": {
+      "deployedUrl": "https://hip-hop-pizza-and-wangs-thonth.netlify.app/",
+      "description": "This POS system allows users to create and manage customer orders and items on those orders. ",
+      "firebaseKey": "-Mpnc_FL_ljb6sW_o4AX",
+      "gitUrl": "https://github.com/nss-evening-cohort-16/hip-hop-pizza-and-wangs-to-hair-or-not-to-hair",
+      "name": "Hip Hop Pizza & Wings",
+      "proImage": "https://hip-hop-pizza-and-wangs-thonth.netlify.app/ae68ca28a0b43a38d49057c5b5d11bf0.png"
     }
-}
+    
+  }
