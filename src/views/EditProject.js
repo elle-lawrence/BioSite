@@ -26,7 +26,7 @@ export default function EditProject() {
 }
 
 EditProject.propTypes = {
-  stuffObj: PropTypes.shape({
+  projectObj: PropTypes.shape({
     name: PropTypes.string,
     description: PropTypes.string,
     firebaseKey: PropTypes.string,
@@ -36,4 +36,4 @@ EditProject.propTypes = {
   }),
 }.isRequired;
 
-EditProject.defaultProps = { stuffObj: {} };
+EditProject.defaultProps = { projectObj: {} };
